@@ -53,3 +53,18 @@ body {
     transform: scale(1.03);
   }
   
+  .image-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
