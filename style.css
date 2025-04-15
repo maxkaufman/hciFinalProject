@@ -30,3 +30,26 @@ body {
     background: #eee;
   }
   
+  .storyboard-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  
+  .storyboard-grid img {
+    width: 240px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .storyboard-grid img:hover {
+    transform: scale(1.03);
+  }
+  
